@@ -1,5 +1,18 @@
-node_modules
-.cache
-.parcel-cache
-package-lock.json
+# Dependencies
+node_modules/
+
+# Build outputs
 dist/
+.parcel-cache/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
